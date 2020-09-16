@@ -76,6 +76,7 @@ PeerOrgs:
   # ---------------------------------------------------------------------------
   - Name: Org2
     Domain: org2.fabric.com
+    EnableNodeOUs: true
     Template:
       Count: 1
     Users:

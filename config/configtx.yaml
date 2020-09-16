@@ -98,7 +98,7 @@ Organizations:
 
         AnchorPeers:
             - Host: peer0.org2.fabric.com
-              Port: 6051
+              Port: 7051
 
 ################################################################################
 #
