@@ -47,3 +47,8 @@
 
     `/opt/hyperledger/docker-compose/docker-compose-orderer.yaml`  
     
+* 启动 peer 和 cli
+
+    `/opt/hyperledger/docker-compose/docker-compose-peer-org1.yaml`  
+    `/opt/hyperledger/docker-compose/docker-compose-peer-org2.yaml`  
+    
