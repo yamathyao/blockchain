@@ -88,5 +88,13 @@
     提交链码  
     `peer lifecycle chaincode commit -o orderer.fabric.com:7050 --tls true --cafile /opt/hyperledger/crypto-config/ordererOrganizations/fabric.com/msp/tlscacerts/tlsca.fabric.com-cert.pem --channelID channel1 --name geex-spring-fabric-chaincode --peerAddresses peer0.org1.fabric.com:7051 --tlsRootCertFiles /opt/hyperledger/crypto-config/peerOrganizations/org1.fabric.com/peers/peer0.org1.fabric.com/tls/ca.crt --peerAddresses peer0.org2.fabric.com:7051 --tlsRootCertFiles /opt/hyperledger/crypto-config/peerOrganizations/org2.fabric.com/peers/peer0.org2.fabric.com/tls/ca.crt --version 1.0.0 --sequence 1 --init-required`  
     查看提交的合约  
-    `peer lifecycle chaincode querycommitted --channelID channel1 --name geex-spring-fabric-chaincode`  
+    `peer lifecycle chaincode querycommitted --channelID channel1 --name geex-spring-fabric-chaincode`
+    
+* 操作链码
+
+    初始化链码   
+    `peer chaincode invoke -o orderer.fabric.com:7050 --ordererTLSHostnameOverride orderer.fabric.com --tls --cafile /opt/hyperledger/crypto-config/ordererOrganizations/fabric.com/orderers/orderer.fabric.com/msp/tlscacerts/tlsca.fabric.com-cert.pem --channelID channel1 --name geex-spring-fabric-chaincode --peerAddresses peer0.org1.fabric.com:7051 --tlsRootCertFiles /opt/hyperledger/crypto-config/peerOrganizations/org1.fabric.com/peers/peer0.org1.fabric.com/tls/ca.crt --peerAddresses peer0.org2.fabric.com:7051 --tlsRootCertFiles /opt/hyperledger/crypto-config/peerOrganizations/org2.fabric.com/peers/peer0.org2.fabric.com/tls/ca.crt --isInit -c '{"function":"init","Args":["a","123"]}'`  
+    查询交易     
+    `peer chaincode query -C channel1 -n geex-spring-fabric-chaincode -c '{"function":"query","Args":["a"]}'`    
+     
     

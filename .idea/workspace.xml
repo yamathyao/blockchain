@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a7c5d37-7c50-40a4-898f-029499fd9c80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/configtx.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/configtx.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/crypto-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/crypto-config.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +21,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="D:/architectureSpace/geex-spring-fabric" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.4092192" />
@@ -56,6 +55,9 @@
       <updated>1600146191057</updated>
       <workItem from="1600146192257" duration="5092000" />
       <workItem from="1600217650625" duration="12674000" />
+      <workItem from="1600303813241" duration="3598000" />
+      <workItem from="1600394893782" duration="4574000" />
+      <workItem from="1600665285890" duration="18000" />
     </task>
     <servers />
   </component>
