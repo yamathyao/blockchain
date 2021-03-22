@@ -58,7 +58,7 @@ services:
       - CORE_PEER_TLS_KEY_FILE=/opt/hyperledger/crypto-config/peerOrganizations/org2.fabric.com/peers/peer0.org2.fabric.com/tls/server.key
       - CORE_PEER_TLS_ROOTCERT_FILE=/opt/hyperledger/crypto-config/peerOrganizations/org2.fabric.com/peers/peer0.org2.fabric.com/tls/ca.crt
       - CORE_PEER_MSPCONFIGPATH=/opt/hyperledger/crypto-config/peerOrganizations/org2.fabric.com/users/Admin@org2.fabric.com/msp
-    working_dir: /opt/hyperledger/config/crypto-config/peerOrganizations/org2.fabric.com/peers/peer0.org2.fabric.com
+    working_dir: /opt/hyperledger/crypto-config/peerOrganizations/org2.fabric.com/peers/peer0.org2.fabric.com
     volumes:
       - /var/run/:/host/var/run/
       - /opt/hyperledger/chaincode/go/:/opt/hyperledger/chaincode/go

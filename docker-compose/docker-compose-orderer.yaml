@@ -26,7 +26,6 @@ services:
       - /opt/hyperledger/channel-artifacts/genesis.block:/var/hyperledger/orderer/genesis.block
       - /opt/hyperledger/crypto-config/ordererOrganizations/fabric.com/orderers/orderer.fabric.com/msp:/var/hyperledger/orderer/msp
       - /opt/hyperledger/crypto-config/ordererOrganizations/fabric.com/orderers/orderer.fabric.com/tls/:/var/hyperledger/orderer/tls
-      - orderer.fabric.com:/var/hyperledger/production/orderer
     ports:
       - 7050:7050
     extra_hosts:
